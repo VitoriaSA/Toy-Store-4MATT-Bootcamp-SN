@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size/>
+        <size_lg/>
+        <size_sm>4</size_sm>
+        <size_xs/>
+        <sp_row display_value="1">2755964ac35b321071795b2ed4013148</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 22:25:39</sys_created_on>
+        <sys_id>6355964ac35b321071795b2ed401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sp_column_6355964ac35b321071795b2ed401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 22:25:39</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</application>
+        <file_path/>
+        <instance_id>48a7204deb0b4e1ce483f459bad0cd19</instance_id>
+        <instance_name>dev276218</instance_name>
+        <name>sp_column_6355964ac35b321071795b2ed401314c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><size/><size_lg/><size_sm>4</size_sm><size_xs/><sp_row display_value="1">2755964ac35b321071795b2ed4013148</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-27 22:25:39</sys_created_on><sys_id>6355964ac35b321071795b2ed401314c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package><sys_policy/><sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope><sys_update_name>sp_column_6355964ac35b321071795b2ed401314c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-27 22:25:39</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1532262928</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>7b010f91c3d3321071795b2ed401317a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-27 22:25:39</sys_created_on>
+        <sys_id>a355964ac35b321071795b2ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ca1351fbf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-27 22:25:39</sys_updated_on>
+        <type>Column</type>
+        <update_guid>6355964a395b321000bac36aa5eede4e</update_guid>
+        <update_guid_history>6355964a395b321000bac36aa5eede4e:-1532262928</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">77f73602c39f321071795b2ed4013102</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 00:56:56</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>18c3b71722de4040bc2e9bff5cee9000</sys_id>
+        <sys_metadata>6355964ac35b321071795b2ed401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_scope_delete display_value="">c0472f5e36e141d09c743d0057178890</sys_scope_delete>
+        <sys_update_name>sp_column_6355964ac35b321071795b2ed401314c</sys_update_name>
+        <sys_update_version display_value="sp_column_6355964ac35b321071795b2ed401314c">a355964ac35b321071795b2ed401314f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 00:56:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

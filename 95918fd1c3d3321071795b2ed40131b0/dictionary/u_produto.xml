@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8efdc39dc317321071795b2ed4013134" label="Produto" max_length="40" name="u_produto" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Website" max_length="1024" name="u_website" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Descrição" max_length="102" name="u_descricao" type="string"/>
+        <element label="Ativo" mandatory="true" max_length="40" name="u_ativo" type="boolean"/>
+        <element label="Imagem" max_length="40" name="u_imagem" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Nome" mandatory="true" max_length="40" name="u_nome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Categoria" mandatory="true" max_length="32" name="u_categoria" reference="u_categoria" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Marca" mandatory="true" max_length="40" name="u_marca" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Grow" value="grow"/>
+                <element inactive_on_update="false" label="Xalingo" value="xalingo"/>
+                <element inactive_on_update="false" label="Estrela" value="estrela"/>
+                <element inactive_on_update="false" label="Candide" value="candide"/>
+                <element inactive_on_update="false" label="Bandeirante" value="bandeirante"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_categoria"/>
+        </index>
+    </element>
+</database>

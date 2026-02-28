@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Toy Store">5ae89f15c397321071795b2ed401310a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Cat</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_pedido</name>
+        <order>410</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-25 19:32:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>709a9319c397321071795b2ed40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lista de Pedidos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sys_app_module_709a9319c397321071795b2ed40131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-25 19:32:34</sys_updated_on>
+        <timeline_page/>
+        <title>Lista de Pedidos</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

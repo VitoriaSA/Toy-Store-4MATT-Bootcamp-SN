@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spAriaUtil) {
+	$scope.accessibilityModeEnabled = spAriaUtil.isAccessibilityEnabled();
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$b-r: 5px;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrap {
+  height: 100%; 
+}
+
+.col-md-4 {
+	padding: 0px;
+}
+.card {
+  display: flex;
+  flex: 0 0 auto;
+  background: #fff;
+  width: 340px;
+  height: 170px;
+  margin: 60px 20px;
+  border-radius: $b-r;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.card:hover{
+	cursor: pointer;
+}
+.card:hover .card-pic-wrap img{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+} 
+.card-pic-wrap {
+  border-radius: $b-r 0 0 $b-r;
+  width: 130px;
+  flex: 0 0 auto;
+  position: relative;
+  background: #81d505;
+  img {
+    position: absolute;
+    left: 50%;
+    margin-left: -95px;
+    width: 170px;
+    -webkit-box-reflect: below -1px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%, transparent), to(rgba(250, 250, 250, 0.15)));
+  	transition: transform 0.3s ease-in-out;
+  }
+}
+.card-content {
+  padding: 2em 2em 2em;
+}
+h3 {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+a {
+  text-decoration: none;
+	color: #000;
+}
+
+@media (max-width: 790px) {
+  body {
+    overflow-x: hidden;
+  }
+  .wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .card {
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .card-pic-wrap {
+    width: 100%;
+    border-radius: $b-r $b-r 0 0;
+    img {
+      bottom: 10px;
+      position: relative;
+    }
+  }
+  .card-content {
+    padding: 2em 2em 1em;
+  } 
+}</css>
+        <data_table>sp_instance_link</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>type,url,sc_category,sc_cat_item,kb_topic,kb_article,kb_category,sp_page,title,short_description,color,class_name,glyph</field_list>
+        <has_preview>false</has_preview>
+        <id>toy_icon_card</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Toy Icon Card</name>
+        <option_schema>[{"name":"link_template","section":"Presentation","label":"Template","type":"choice","choices":[{"label":"Top Icon","value":"Top Icon"},{"label":"Circle Icon","value":"Circle Icon"},{"label":"Color Box","value":"Color Box"}]}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-28 17:05:11</sys_created_on>
+        <sys_id>4b951a92c39bb21071795b2ed4013118</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>Toy Icon Card</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sp_widget_4b951a92c39bb21071795b2ed4013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-28 21:00:58</sys_updated_on>
+        <template><![CDATA[  <div class="wrap">
+    <div class="col-md-4 card produtos">
+      <div class="card-pic-wrap">
+        <img src="produtos.png" alt="produtos">
+      </div>
+      <div class="card-content">
+        <a href="https://dev276218.service-now.com/toy?id=produtos">
+          <h3>Produtos</h3>
+          <p>Conheça nossa lista de produtos</p>
+        </a>
+      </div>
+
+    </div>
+    <div class="col-md-4 card ">
+      <div class="card-pic-wrap">
+        <img src="kb.png" alt="kb">
+      </div>
+      <div class="card-content">
+        <a href="https://dev276218.service-now.com/toy?id=kb_view2">
+          <h3>Base de Conhecimento</h3>
+          <p>Conheça nossos principais artigos</p>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4 card help">
+      <div class="card-pic-wrap">
+        <img src="help.png" alt="help">
+      </div>
+      <div class="card-content">
+        <a href="https://dev276218.service-now.com/toy?id=sc_category&sys_id=e15706fc0a0a0aa7007fc21e1ab70c2f">
+          <h3>Peça Ajuda</h3>
+          <p>Fale com o nosso time de suporte</p>
+        </a>
+      </div>
+    </div>
+  </div>]]></template>
+    </sp_widget>
+</record_update>
