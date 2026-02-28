@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f25c0b99c317321071795b2ed4013154" extends="sys_import_set_row" label="Global 1772044263909" max_length="40" name="u_global_1772044263909" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Categoria" label="Categoria" max_length="40" name="u_categoria" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Website" label="Website" max_length="40" name="u_website" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Descrição" label="Descrição" max_length="102" name="u_rplcd_n_ascii_1294927794" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Marca" label="Marca" max_length="40" name="u_marca" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Ativo" label="Ativo" max_length="40" name="u_ativo" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nome" label="Nome" max_length="40" name="u_nome" type="string"/>
+    </element>
+</database>
