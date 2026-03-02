@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>300</order>
+        <search_context_config display_value="Toy Store Workspace - Workspace Search">18a4accf955f3610cbd9fe2e82e79caa</search_context_config>
+        <source display_value="Toy Store Workspace - u_produto">7aa42403c39f361071795b2ed40131a3</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 16:47:11</sys_created_on>
+        <sys_id>fea42403c39f361071795b2ed40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_fea42403c39f361071795b2ed40131af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 16:47:11</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

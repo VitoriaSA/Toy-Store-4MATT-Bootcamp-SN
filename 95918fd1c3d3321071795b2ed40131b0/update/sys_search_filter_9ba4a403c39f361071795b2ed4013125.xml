@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Produto">4fa4a403c39f361071795b2ed401311b</ais_search_source>
+        <label>Produto</label>
+        <name>Produto</name>
+        <order>300</order>
+        <search_context_config display_value="Toy Store Workspace AI Search Configuration">10a4accf145f361064eaa518bda809ab</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 16:47:13</sys_created_on>
+        <sys_id>9ba4a403c39f361071795b2ed4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Produto</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sys_search_filter_9ba4a403c39f361071795b2ed4013125</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 16:47:13</sys_updated_on>
+    </sys_search_filter>
+</record_update>
