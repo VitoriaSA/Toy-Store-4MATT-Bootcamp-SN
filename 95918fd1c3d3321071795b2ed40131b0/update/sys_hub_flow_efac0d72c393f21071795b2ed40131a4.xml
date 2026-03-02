@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2646000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=3190000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,14 +15,14 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>copy_of_solicitao_de_brinquedos</internal_name>
-        <label_cache>[{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["record"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"]},"attributes":{}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["record"]}},{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>c436d1b6c3d3f21071795b2ed401312a</master_snapshot>
         <master_snapshot_digest/>
-        <name>Copy of Solicitação de brinquedos</name>
+        <name>Solicitação de brinquedos</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>02c659f6c3d3f21071795b2ed40131dc</remote_trigger_id>
+        <remote_trigger_id>bed8d93ec3d3f21071795b2ed40131ef</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -36,19 +36,19 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>efac0d72c393f21071795b2ed40131a4</sys_id>
-        <sys_mod_count>41</sys_mod_count>
-        <sys_name>Copy of Solicitação de brinquedos</sys_name>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>Solicitação de brinquedos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name>sys_hub_flow_efac0d72c393f21071795b2ed40131a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:40</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:47</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>e6c699f6c3d3f21071795b2ed40131a7</version_record>
+        <version_record>d3d81d3ec3d3f21071795b2ed40131a3</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=efac0d72c393f21071795b2ed40131a4"/>
     <sys_variable_value action="delete_multiple" query="document_key=efac0d72c393f21071795b2ed40131a4"/>
@@ -68,15 +68,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-02 01:47:40</sys_created_on>
+        <sys_created_on>2026-03-02 01:56:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>02c659f6c3d3f21071795b2ed40131dc</sys_id>
+        <sys_id>bed8d93ec3d3f21071795b2ed40131ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:40</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
         <table>u_pedido</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -86,14 +86,14 @@
         <identifier>efac0d72c393f21071795b2ed40131a4</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-02 01:47:40</sys_created_on>
-        <sys_id>0ec659f6c3d3f21071795b2ed40131dc</sys_id>
+        <sys_created_on>2026-03-02 01:56:43</sys_created_on>
+        <sys_id>f2d8d93ec3d3f21071795b2ed40131f1</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:40</sys_updated_on>
-        <trigger display_value="">02c659f6c3d3f21071795b2ed40131dc</trigger>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
+        <trigger display_value="">bed8d93ec3d3f21071795b2ed40131ef</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN0ec659f6c3d3f21071795b2ed40131dc"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=efac0d72c393f21071795b2ed40131a4^sys_idNOT INf2d8d93ec3d3f21071795b2ed40131f1"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN23ac0d72c393f21071795b2ed40131a6"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -149,7 +149,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
+        <model display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
         <model_id>efac0d72c393f21071795b2ed40131a4</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
@@ -233,7 +233,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
+        <model display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
         <model_id>efac0d72c393f21071795b2ed40131a4</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
@@ -283,7 +283,7 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <name>Created</name>
         <published_version/>
@@ -309,7 +309,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>6</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -333,7 +333,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -357,7 +357,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</parent_ui_id>
@@ -381,7 +381,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>7</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -405,7 +405,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>9</order>
         <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
@@ -429,7 +429,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>10</order>
         <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
@@ -453,7 +453,7 @@
         <comment/>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <generation_source/>
         <order>5</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -479,7 +479,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -490,10 +490,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:28:29</sys_created_on>
         <sys_id>8162997ec393f21071795b2ed40131a8</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:37</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:40</sys_updated_on>
         <ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnWaAkS6l8C1oEKNA2QBPk0gbCilrZRClRJSk7ruGv6aEfkh/rUg/HaBw0KHLsTZxd7s4sZ7XzVGfbzpobdWGMWDbe4sud74nGYfS98xqo0Vt4XDWlsEI1eQ/43hpk5wLXSgouLDz8evipziolzqDVag0lUFIpTCthe/uSXL4SstQ4MmhBUx+L2lvs/gjZbYu5hAKlK2m1aJZ0XZR0qhhUYcZDHkdpHDEWvZmHRRoXYVTGgBBT3nTx7STo7EOP+M8qdf0IN1MnpUtHK2S+h/cWmxKpdQXSoO/V0JRgld4eEI1QXjXyEViJxlI5zyXfG/GDakdJ4hIrJI0ch+DhmI9DHGC+UoLjVesIDoiFQo53uJJd3XwadLjxYwWdtNP4CekM1cPWkXYsRkrV9UptPk8NL0XTCxyDUnGQhxNYGkPRWTTuYVBiTYXyGtqWhpO71xT9ZeJSB0tJh6CSakNNnbsC4I54QDOC4JLwdz18C1o4FR+pDF0eaBZgBM97J1I5q0nCvh9L/r1zhAaBo5R8mAYlGK5Fay+ozxpH1nv/qY2PHLzbYZqycH6Osyo9T2bzaJ7NipRlM4jTNK2KjBWYBcTNeVXmxoLF/f5rx1hcDig54InZX6vsa+xFBkmVhCw5vRfz9NRenNiI55ch+ssyuOd74S4wxv4vw/EyCJMPph619c3/eRfunPGHDmbwTYlcGCJy47D305/fBbZkAMGPoY3S35yER2z/G3GQ5WRDBgAA</values>
@@ -506,7 +506,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -517,10 +517,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:03:54</sys_created_on>
         <sys_id>85cc01b2c393f21071795b2ed4013182</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:37</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:41</sys_updated_on>
         <ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1UXWvbMBT9K8HPxvijCWveSkZhsK2wlr5sxVxL14mYLHmSnDQL+UH7Hftju7LsNLQpLaOPfYvO/TjnXB+yi3Tn2s7ZG31hrViqaP79Lo6E8hj93kUKGozmEdOKCye0KnsgjtYgO1+4xklrhDaCA8fJ3z+ThaE+BtTChW0lbG9f7mQrIbnBgb0FQxwOTTTfPSq5bYulhAqlX+iMUEsaF5xedQp1ds4yVuSzIk/T/MNZVs2KKst5AQgF9Y2Di9HM5HOPxM+69HyE25FJG+5lZWkc4b1DxZGoa5AW46gBxcFpsz0gBoFfKfkArIRytC7yzfdW/Kbd+XTqG2skjwxD8fAshxMGmK20YHjVeoEBcVDJYYZp2TXqa/Dhj481dNKNxyeks7QPWy/aqxgk1dcrvfk2El4K1RscilIzkIcXODpD1Tm0/sOgxIYWlQ20LR2nbI1ei36YtDTJUtIjqaXeEKlPVgLMC0/oRpBcEv6xh2/BCO/iC62h4SCzAitY2aeQ1jlDFvb9WcpfnRcUDA5WynANarDMiNZdEM8aB9X7+GmEj9K72y3oIznkZZawztANXBJC6rb7/Y8uTQuePY3ya8feItfnMK2nWTo9neuz2alcn0j082HOXwizP/8rs5ym6XuYj8MsbBlCOXjryf87y3c+uIHBhtxwZMKSkBuPfRr/tX1hSwEQ7BjaaPPTW3jA9v8AIeeOif8FAAA=</values>
@@ -533,7 +533,7 @@
         <connected_to>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</connected_to>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
@@ -544,10 +544,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:33:51</sys_created_on>
         <sys_id>bf93d932c3d3f21071795b2ed40131e9</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:37</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:41</sys_updated_on>
         <ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -651,12 +651,12 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>copy_of_solicitao_de_brinquedos</internal_name>
-        <label_cache>[{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["record"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"]},"attributes":{}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["record"]}},{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
-        <name>Copy of Solicitação de brinquedos</name>
+        <name>Solicitação de brinquedos</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Copy of Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</parent_flow>
+        <parent_flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</parent_flow>
         <remote_trigger_id/>
         <run_as>user</run_as>
         <run_with_roles/>
@@ -668,7 +668,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c436d1b6c3d3f21071795b2ed401312a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -676,7 +676,7 @@
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -737,7 +737,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
+        <model display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
         <model_id>c436d1b6c3d3f21071795b2ed401312a</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
@@ -760,14 +760,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:45:04</sys_created_on>
         <sys_id>0836d1b6c3d3f21071795b2ed401312e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:38</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -821,7 +821,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
+        <model display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
         <model_id>c436d1b6c3d3f21071795b2ed401312a</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
@@ -844,14 +844,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:45:04</sys_created_on>
         <sys_id>9836d1b6c3d3f21071795b2ed4013143</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -871,7 +871,7 @@
     <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <name>Created</name>
         <published_version/>
@@ -897,7 +897,7 @@
         <comment/>
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>9</order>
         <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
@@ -921,7 +921,7 @@
         <comment/>
         <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>6</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -945,7 +945,7 @@
         <comment/>
         <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>4</order>
         <parent_ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</parent_ui_id>
@@ -969,7 +969,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>10</order>
         <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
@@ -993,7 +993,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>5</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -1017,7 +1017,7 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>7</order>
         <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
@@ -1041,7 +1041,7 @@
         <comment/>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <generation_source/>
         <order>1</order>
         <parent_ui_id/>
@@ -1067,7 +1067,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1078,10 +1078,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:45:04</sys_created_on>
         <sys_id>5036d1b6c3d3f21071795b2ed4013155</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
         <ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWaAkS6l8CxwEKJA2QB3k0gbCiqJsopSoipQdV/DX9NAPyY91qYdtNC6aoDn2Zg6XuzOjHbglqjFVY/SdutRarEoy//zgEFFaDH+3pISCkzlhqsyEEapMOsAhG5CNvVgqKZgw8PTz6Yea5EpMoKrVBjLAokzoSsLu/iW1bC1kVvOBQQU1zjG8JvP2tyuRYaucQu7FzGOBHwU+pf67mZdGQer5WQAcAmwoIeUSSxcj9clNhzh/1GR2lcW1qUW5Gs43Q5flCKo6s6w86hD+aHiZceSTg9TcIQWUGRhV7w5IzSG7LeURWIvSYDtiix+1+I4D/TC0hTlHiYz3l4djMnjYw/kVGEAqDTNNPZSytRKM696cjOfQSLM4xfqC28pK7Z8YSOX4WsmmKD/2jpBDg/GTIdJoJMErq9RSH3Tky7XafhpZXouyc2W4lIqBPJzAoHdpYyyflnDJC2yUFFBV6GhiN0B0j5FL4a4kHtxcqi0OtRvpArPEXTQW3GvErzr4HmphVXzANvi4p5mCFizpthfboU2c7B2id3ohQeujSHQ3+dZYir3kQVzS+2OfsFpU5hInb/igY+88D8NJDtqWRxH1Zhd8mkcX4XTmz+JpGtF4CkEURXka05THLrK1Gy8TbcDw/f5LQ2mQ9Sgu0rPIvFXb16UrhjAPPRqeT9csOpeuM7l6ZaT8v0TKfs8XJopS+j9S/xwpoZM+CIO2bvgbJurBxqefefCaCY3U7iz2fvwXshc7XC7BTqGtqr9aUUds/wvO2MNTzwYAAA==</values>
@@ -1094,7 +1094,7 @@
         <connected_to/>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1105,10 +1105,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:45:04</sys_created_on>
         <sys_id>d036d1b6c3d3f21071795b2ed4013157</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
         <ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1Vy2obMRT9FaP1MMwjNo13wSFQSBuoQzZtGO5IGltUI031sOMO/qB+R3+sV/OwTeOShHbZnXV0H+ec0cEt0d413tl7fWWtWCky//wYEaEChr9boqDmZE6oVkw4oVXRARHZgPThYsknjRHaCAaMT37+mCwM1lHAEiZsI2H38HIlXQvJDB+2N2Bwh+OGzNvfrgTDQVUCVXpJU5pnszxLkuzdRVrO8jLNWA4cchwooeQSSxcj7clth0R/1ON2TcCtM0KthvPtMGU5gtqwwCpNIsKfHFeMI58KpOURqUExcNrsDojhwO6UPAJroRyOI6H4yYrvuDCbTkNhxVEi5f3l4VgMDvZwdQ0OkIqnzpuhlK61oNz25jBegZducYr1BXdNkNq3OCjl2K2lr9XH3hFyGDB+MES8RRK8CUoD9UFHtVzr7aeR5Y1QnSvDpdQU5OEEDr0rvQt8WsIlr3FQUUPToKNFY/RGdM3IpY5XEg9xJfUWl4bXGAMNxGM0FuIbxK87+AGMCCo+4Bhs7mmWYAUtupeL49AmTvYRsTu7kGDtUSS6W3zzgWIveRBX9P6EFmpE465w84YPOvbR8yCcZKBtF/itHWdFGlNv0BUX90/d7fb7Lz5JcpY+D8Rr296WjkuYVtM0mZ5Px8XsXDrO5OKNkcheiET4Hq9MRJIk/yPx15EQtugf8qCtW/4PE/EYnn+/8+A1FRap3Qfs/fgPEi52+LgEPYW22nwNoo7Y/hdP60ZHiwYAAA==</values>
@@ -1121,7 +1121,7 @@
         <connected_to>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</connected_to>
         <decision_table/>
         <display_text/>
-        <flow display_value="Copy of Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
@@ -1132,10 +1132,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-02 01:45:04</sys_created_on>
         <sys_id>d436d1b6c3d3f21071795b2ed4013158</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
         <ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
@@ -1242,12 +1242,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2836d1b6c3d3f21071795b2ed40131bd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-02 01:47:40</sys_updated_on>
-        <trigger display_value="">02c659f6c3d3f21071795b2ed40131dc</trigger>
+        <sys_updated_on>2026-03-02 01:56:43</sys_updated_on>
+        <trigger display_value="">bed8d93ec3d3f21071795b2ed40131ef</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=efac0d72c393f21071795b2ed40131a4"/>
 </record_update>
