@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Solicitar brinquedo">e0a67872c3dfb21071795b2ed40131f7</sc_cat_item>
-        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sc_catalog display_value="Catálogo de serviços">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-01 23:29:48</sys_created_on>

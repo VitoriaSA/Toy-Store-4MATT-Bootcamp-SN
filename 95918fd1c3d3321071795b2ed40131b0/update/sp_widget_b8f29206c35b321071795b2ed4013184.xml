@@ -125,11 +125,7 @@
   $rootScope.$broadcast('sp-header-loaded');
 }]]></client_script>
         <controller_as>c</controller_as>
-        <css>transparent{
-	background: transparent;
-  color: #fff;
-}
-.header-loader {
+        <css>.header-loader {
 	float: left;
   	width: 24px;
   	position: relative;
@@ -470,15 +466,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-27 22:15:04</sys_created_on>
         <sys_id>b8f29206c35b321071795b2ed4013184</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Toy Header Menu</sys_name>
         <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name>sp_widget_b8f29206c35b321071795b2ed4013184</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-02-28 19:39:36</sys_updated_on>
-        <template><![CDATA[<ul class="nav navbar-nav transparent" aria-label="${Header}">
+        <sys_updated_on>2026-03-03 15:18:21</sys_updated_on>
+        <template><![CDATA[<ul class="nav navbar-nav" aria-label="${Header}">
   <li class="header-loader" ng-class="{'invisible': !loadingIndicator}" >
     <div class="hidden-xs hidden-sm sp-loading-indicator la-sm">
       <div></div>

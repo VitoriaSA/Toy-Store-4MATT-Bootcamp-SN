@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_js_include">
+    <m2m_sp_theme_js_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_js_include display_value="mixitup">1e0af9c7c35b761071795b2ed401313d</sp_js_include>
+        <sp_theme display_value="Coral">281507c44317d210ca4c1f425db8f2fd</sp_theme>
+        <sys_class_name>m2m_sp_theme_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 23:01:05</sys_created_on>
+        <sys_id>773ab10bc35b761071795b2ed4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js.Coral</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>m2m_sp_theme_js_include_773ab10bc35b761071795b2ed4013151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 23:01:05</sys_updated_on>
+    </m2m_sp_theme_js_include>
+</record_update>

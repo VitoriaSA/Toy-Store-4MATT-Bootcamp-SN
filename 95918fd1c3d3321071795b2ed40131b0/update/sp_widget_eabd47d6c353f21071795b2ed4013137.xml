@@ -5,22 +5,35 @@
 	/* widget controller */
 	var c = this;
 	c.data.active = true;
+	c.data.ifProduct = true;
 	c.data.category = c.data.passCategory;
 	c.data.products = c.data.passProducts;
+	c.data.products1 = c.data.passProducts;
 
 	$scope.filterCategory = function(cate) {
+		c.data.catFilter = cate; 
+		c.data.ifProduct = false;
+		
 		if(cate == undefined){
 			c.data.active = true;
 			c.data.products = c.data.passProducts;
 		}else{
 			c.data.active = false;
-			c.data.catFilter = cate; 
 			c.server.update().then(function(response) {
 				c.data.products = c.data.teste;
 			});
 		}
 
 	};
+
+	$scope.$watch('data.products', function(newValue, oldValue) {
+		if (newValue !== oldValue) {
+			c.data.ifProduct = true;
+			c.data.products1 = c.data.products;
+		}
+	});
+
+	//filter products
 
 	console.log(JSON.stringify(c.data.category));
 };]]></client_script>
@@ -160,17 +173,17 @@ img {
   width: 200px;
   align-self: flex-end;
   transition: all 0.35s;
-  /*animation: fadeOut 1s linear;*/
+  animation: fadeIn 0.25s linear;
 }
 
-@keyframes fadeOut {
+@keyframes fadeIn {
   0% {
-    opacity: 1; /* Start fully visible */
-    visibility: visible;
+    opacity: 0; 
+    visibility: hidden;
   }
   100% {
-    opacity: 0; /* End completely transparent */
-    visibility: hidden; /* Hide completely at the end */
+    opacity: 1; 
+    visibility: visible;
   }
 }
 
@@ -214,7 +227,8 @@ img {
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
-}</css>
+}
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -296,22 +310,22 @@ img {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-28 21:10:22</sys_created_on>
         <sys_id>eabd47d6c353f21071795b2ed4013137</sys_id>
-        <sys_mod_count>240</sys_mod_count>
+        <sys_mod_count>260</sys_mod_count>
         <sys_name>Products List</sys_name>
         <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
         <sys_update_name>sp_widget_eabd47d6c353f21071795b2ed4013137</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-01 23:09:10</sys_updated_on>
+        <sys_updated_on>2026-03-02 23:48:22</sys_updated_on>
         <template><![CDATA[<div class="main">
   <div class="header text-center">
     <h1 class="dynapuff">Produtos</h1>
-    <button ng-click="filterCategory()" class="btn btn-outline-blue" ng-class="{'active': c.data.active}"> Todos </button>
-    <button ng-click="filterCategory(cat)" class="btn btn-outline-blue" ng-class="{'active': c.data.catFilter == cat.sysID}" ng-repeat="cat in c.data.category"> {{cat.categoria}} </button>
+    <button  ng-click="filterCategory()" class="btn btn-outline-blue" ng-class="{'active': c.data.active}"> Todos </button>
+    <button  ng-click="filterCategory(cat)" class="btn btn-outline-blue" ng-class="{'active': c.data.catFilter.sysID == cat.sysID}" ng-repeat="cat in c.data.category"> {{cat.categoria}} </button>
   </div>
   <ul class="cards justify-content-center">
-    <li class="cards_item" ng-repeat="product in c.data.products">
+    <li class="cards_item" ng-repeat="product in c.data.products1 | unique:'sysID'" ng-if="c.data.ifProduct">
       <div class="card">
         <div class="card_image">
           <span class="marca">{{product.marca}}</span>

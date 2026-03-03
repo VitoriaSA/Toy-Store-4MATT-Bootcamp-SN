@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footer{
+  background: #1f4287;
+  color:white;
+}
+  
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #fff;
+  background-color: #1f4287;
+  border-top: 1px solid #1f4287;
+}
+
+.footer &gt; * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.footer__addr h2 {
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer address {
+  font-style: normal;
+  color: #D3D3D3;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  text-decoration: none;
+  
+  max-width: max-content;
+  margin: 0.6em 0;
+  padding: 0 1.3em;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav &gt; * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #D3D3D3;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #D3D3D3;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #fff;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav &gt; * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>toy-store-footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Toy Store Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 12:55:41</sys_created_on>
+        <sys_id>a309f093c393f61071795b2ed4013117</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Toy Store Footer</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sp_header_footer_a309f093c393f61071795b2ed4013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 13:33:59</sys_updated_on>
+        <template><![CDATA[<header>
+  <!-- Content -->
+</header>
+
+<main>
+  <!-- Content -->
+</main>
+
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo dynapuff">Toy Store</h1>
+        
+    <h2>Contato</h2>
+    
+    <address>
+      Rua das Flores, 123 - Jardim Esperança, São Paulo/SP, 01000-000<br>
+          
+      <a class="footer__btn btn btn-success" href="mailto:example@gmail.com">Mande um Email</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Instagram</a>
+        </li>
+
+        <li>
+          <a href="#">Youtube</a>
+        </li>
+            
+        <li>
+          <a href="#">Linkedin</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Links</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Produtos</a>
+        </li>
+        
+        <li>
+          <a href="#">Pedidos</a>
+        </li>
+        
+        <li>
+          <a href="#">Base de Conhecimento</a>
+        </li>
+        
+        <li>
+          <a href="#">Trabalhe Conosco</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Política de Privacidade</a>
+        </li>
+        
+        <li>
+          <a href="#">Termos de Uso</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p> 2026 &copy; Vitória Simões</p>
+    
+    <div class="legal__links">
+      <span>Feito com <span class="heart">♥</span> Virada ServiceNow Bootcamp</span>
+    </div>
+  </div>
+</footer>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a309f093c393f61071795b2ed4013117</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 12:55:41</sys_created_on>
+        <sys_id>19493853c393f61071795b2ed4013124</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 12:55:41</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
