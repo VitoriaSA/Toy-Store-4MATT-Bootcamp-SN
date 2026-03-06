@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Catálogos Toy Store">b15dd1f6c317f21071795b2ed4013133</category>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-01 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>true</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Nova categoria</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>true</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture>eda4b83ac39fb21071795b2ed40131da</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=6964f43ec39fb21071795b2ed40131b2&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method>submit</request_method>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="">500781879320221014d63b953489187e</sc_template>
+        <short_description>Nova categoria</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:18:46</sys_created_on>
+        <sys_id>6964f43ec39fb21071795b2ed40131b2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Nova categoria</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sc_cat_item_6964f43ec39fb21071795b2ed40131b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 15:45:01</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>5</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=6964f43ec39fb21071795b2ed40131b2"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6964f43ec39fb21071795b2ed40131b2</documentkey>
+        <fieldname>description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 15:45:01</sys_created_on>
+        <sys_id>f500a917c3d7f61071795b2ed40131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 15:45:01</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6964f43ec39fb21071795b2ed40131b2</documentkey>
+        <fieldname>name</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 15:45:01</sys_created_on>
+        <sys_id>f500a917c3d7f61071795b2ed40131c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 15:45:01</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Nova categoria</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>6964f43ec39fb21071795b2ed40131b2</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>pb</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 15:45:01</sys_created_on>
+        <sys_id>7d00a917c3d7f61071795b2ed40131cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 15:45:01</sys_updated_on>
+        <tablename>sc_cat_item</tablename>
+        <value>Nova categoria</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=6964f43ec39fb21071795b2ed40131b2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="BRL">BRL</currency>
+        <field>price</field>
+        <id>6964f43ec39fb21071795b2ed40131b2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:18:46</sys_created_on>
+        <sys_id>01b4707ec39fb21071795b2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 23:18:46</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon-category.png</file_name>
+        <hash>5b20da6afd553255a68433d741daaf49bd88435dc636c44e274ab725b1bf1811</hash>
+        <image_height>128</image_height>
+        <image_width>128</image_width>
+        <size_bytes>1706</size_bytes>
+        <size_compressed>1683</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:18:32</sys_created_on>
+        <sys_id>eda4b83ac39fb21071795b2ed40131da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 23:18:32</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>6964f43ec39fb21071795b2ed40131b2</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon-category.png" sys_id="eda4b83ac39fb21071795b2ed40131da">eda4b83ac39fb21071795b2ed40131da</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:18:32</sys_created_on>
+        <sys_id>a1a4b83ac39fb21071795b2ed40131db</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2232</length>
+        <position>1</position>
+        <sys_attachment display_value="icon-category.png" sys_id="eda4b83ac39fb21071795b2ed40131da">eda4b83ac39fb21071795b2ed40131da</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:18:32</sys_created_on>
+        <sys_id>e5a4b83ac39fb21071795b2ed40131db</sys_id>
+    </sys_attachment_doc>
+</record_update>

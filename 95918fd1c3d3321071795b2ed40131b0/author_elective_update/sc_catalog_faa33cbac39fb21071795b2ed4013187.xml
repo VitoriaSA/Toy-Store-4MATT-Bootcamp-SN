@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <description>Nova categoria</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:15:29</sys_created_on>
+        <sys_id>faa33cbac39fb21071795b2ed4013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nova categoria</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sc_catalog_faa33cbac39fb21071795b2ed4013187</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 23:15:29</sys_updated_on>
+        <title>Nova categoria</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=faa33cbac39fb21071795b2ed4013187"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</application>
+        <file_path/>
+        <instance_id>48a7204deb0b4e1ce483f459bad0cd19</instance_id>
+        <instance_name>dev276218</instance_name>
+        <name>sc_catalog_faa33cbac39fb21071795b2ed4013187</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><description>Nova categoria</description><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager/><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-01 23:15:29</sys_created_on><sys_id>faa33cbac39fb21071795b2ed4013187</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nova categoria</sys_name><sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package><sys_policy/><sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope><sys_update_name>sc_catalog_faa33cbac39fb21071795b2ed4013187</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-01 23:15:29</sys_updated_on><title>Nova categoria</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=faa33cbac39fb21071795b2ed4013187"/></record_update>]]></payload>
+        <payload_hash>-728043592</payload_hash>
+        <record_name>Nova categoria</record_name>
+        <reverted_from/>
+        <source>7b010f91c3d3321071795b2ed401317a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:15:29</sys_created_on>
+        <sys_id>49f3b4fac39fb21071795b2ed4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cabaf79f60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 23:15:29</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>09f3b4fa739fb2100876ea7d4248a676</update_guid>
+        <update_guid_history>09f3b4fa739fb2100876ea7d4248a676:-728043592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nova categoria">a014b8fac39fb21071795b2ed40131f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 23:16:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>2b6a537dee954eda9b9d36796d6586e4</sys_id>
+        <sys_metadata>faa33cbac39fb21071795b2ed4013187</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nova categoria</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_scope_delete display_value="">c0472f5e36e141d09c743d0057178890</sys_scope_delete>
+        <sys_update_name>sc_catalog_faa33cbac39fb21071795b2ed4013187</sys_update_name>
+        <sys_update_version display_value="sc_catalog_faa33cbac39fb21071795b2ed4013187">49f3b4fac39fb21071795b2ed4013177</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 23:16:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

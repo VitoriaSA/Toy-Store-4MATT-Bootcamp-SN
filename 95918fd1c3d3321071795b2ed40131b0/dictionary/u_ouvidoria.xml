@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3725971dc357321071795b2ed401317f" extends="task" label="Ouvidoria" max_length="40" name="u_ouvidoria" type="collection">
+    <element db_object_id="3725971dc357321071795b2ed401317f" extends="task" label="Ouvidoria" max_length="40" name="u_ouvidoria" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
         <element display="true" label="Tipo do Problema" mandatory="true" max_length="35" name="u_tipo_do_problema" type="string"/>
         <element label="Follow-up" max_length="40" name="u_follow_up" type="boolean"/>

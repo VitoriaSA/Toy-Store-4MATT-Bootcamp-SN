@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Toy Store Dashboard">4c42508bc3db361071795b2ed4013139</dashboard>
+        <group display_value="Toy Store - Entregas" name="Toy Store - Entregas">1071940bc3db361071795b2ed4013101</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 19:05:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71544983c393761071795b2ed401310d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4c42508bc3db361071795b2ed4013139</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>par_dashboard_permission_71544983c393761071795b2ed401310d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:05:33</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

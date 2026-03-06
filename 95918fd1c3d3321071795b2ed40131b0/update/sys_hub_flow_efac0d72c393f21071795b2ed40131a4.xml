@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=67507000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>547d7032c313f21071795b2ed40131dc</copied_from>
+        <copied_from_name>Solicitação de brinquedos</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>copy_of_solicitao_de_brinquedos</internal_name>
+        <label_cache>[{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["approval_conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"],"e660147e-f675-4249-b609-a3666fb90be9":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}}]</label_cache>
+        <master_snapshot>c436d1b6c3d3f21071795b2ed401312a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Solicitação de brinquedos</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>a13e890bc3d3761071795b2ed40131b4</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>efac0d72c393f21071795b2ed40131a4</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Solicitação de brinquedos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sys_hub_flow_efac0d72c393f21071795b2ed40131a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:52:31</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>e70f498bc3d3761071795b2ed4013177</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="u_pedido">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 19:48:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a13e890bc3d3761071795b2ed40131b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:42</sys_updated_on>
+        <table>u_pedido</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>efac0d72c393f21071795b2ed40131a4</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 19:48:42</sys_created_on>
+        <sys_id>e53e890bc3d3761071795b2ed40131b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:42</sys_updated_on>
+        <trigger display_value="">a13e890bc3d3761071795b2ed40131b4</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=efac0d72c393f21071795b2ed40131a4^sys_idNOT INe53e890bc3d3761071795b2ed40131b5"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN23ac0d72c393f21071795b2ed40131a6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>efac0d72c393f21071795b2ed40131a4</id>
+        <name>Copy of Solicitação de brinquedos</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>23ac0d72c393f21071795b2ed40131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:03:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=23ac0d72c393f21071795b2ed40131a6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN23ac4d72c393f21071795b2ed401319f,27ac4d72c393f21071795b2ed40131a5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
+        <model_id>efac0d72c393f21071795b2ed40131a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>23ac4d72c393f21071795b2ed401319f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=23ac4d72c393f21071795b2ed401319f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</model>
+        <model_id>efac0d72c393f21071795b2ed40131a4</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>27ac4d72c393f21071795b2ed40131a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=27ac4d72c393f21071795b2ed40131a5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN67ac8d72c393f21071795b2ed401310b"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>67ac8d72c393f21071795b2ed401310b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:47:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdtkkUDbDet420fglSgRNImSpOuRCnrLvLvHepiyxLl2LGydZ4CDemZM4dnZsg8fLM5Cgm3L+0pCjmxz2wmFIkF4tPVkoBZaXMg0EKvLZDASMl4ZV+qOCVnNo3lYkoWS44UbKaIJ2CUMSaxfeme2RniKblfJbcYPMHvczelT7tchu80WBLMsAQTZgk4W/1RrvxW2aM54zgmwr58eDyzlygGT0pH+dZYYjpURCM09ogT+a7veY7jXQzc8NwPXQ/7iDgOOGym3YCmDNlv8iJfFRGY4HXKLWJigvCd4Kv1jjnwWpCwQF8T9i94v3D0PkoAe0SKtfVnUBJRmKO5ZBG5WyomRWEpcBaLkqcL8bnArykkFKVcVRSCJU3AH1lqyBpEiYjez+XTpAr4kYk8u3KRywjx9RdSKmZhqkiiCaeMA/VBwU0i0zhHP7m5uptcB39+mF79cjMJJjf308nt1fTm2n7O8wr+SbXHAmGJJSjSeV6f+0dGOC4UEUucKn30SRSzpfoQKZZVGns+2+j2SgrMcmJa2o2qpWRbuxUBu8TrOJ3yjWoRKwn/dfN7W72F8TDpnp8jhAnqkG5Ia9KtZ26Apgwk1LPbJeLSso+KB47zP+m4bEGvlfETEioJlAwQxkGNJah6cKxTlJjw6008sLPZDJTPxDJVyYu6LnJ7flHBcSrgB8H6PNo6zmlb8/eJJYDmAQqx4qYETD+VHiepsKSwojQGUpQF52pV3q0cldYCvV2gWcksvSecRKomBvolqX/9ypKEiVkN/Tp4bmlH56s6hKqvHhP0sc8ibpOeNfJpFPPBley6lIaEes5I17Hr+CF1nZEzRBT7jhN5tUpug+lEqRqSeJOKPqyek1yMfI/Tb1Jcgnfq1bCXdrNt4VckaImUbeOqH2huT9A8Da3R/vyD+t9aloX5eludu1LrefwjnCH4Ba5y3Ge879EBKZdP0Flf0f2ojMkslqnAzS6kfVoM/m7t6KnvhSj6e3fYzQ7rh/LYfjy1HrihvRIuEqseup9P3XBMBsSBpudDvwuH43EYIY/S0fmIeG6j+21gGLG9i673wrFnJt10dUCjcjOT4A/ofUcAbPXBgwEe3wFLYRr7X7H2Pjrd05yIAKDGAde9rNXwZpxhUq31W+2t0Nmmvo+teHoxjobuaBSN4NUCFU8HJETuwBui8ejcvxg2Kr4FZRdMZWDmu7xlklWSA+noBl+KpdN6n7+lbBOilB5Hh0/pfD8qAtTmpT4SK28oMrY0ndbtZqN1T2D65a/Z3qa2VPPWvIbQP4N9K7S+3X2W4icDnD5fTwKu9/tQ0wHl1K4TDZFk26wf/aQig4vhmPrmFkPHphazAdMN8+SvF3tKIesUlemesW/pZcYK7rwYvKKYGjKp3xh2XGn6IsXtnRTv7Ujxj75GVbXY+Y58Ddh3NMLye8Xr55gUJJDU2KcZtcp/ERJshStLzQmQyeGmDKEsHbfPyVFceVuDDMxWeWPpb0ZpmptpX0sLFqz4uyT+NoOqIYV+X8AEj9Bw6Hfch8fNF7AJ0At4T35sHSyRzKS4nbPrML9Nn8bpVaugbUXsOZd6zdo8nI7L2jieXsr6+MGz6/1uQHGiI+XxP9rTbws0HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN23ce09b6c393f21071795b2ed40131fb,3acf493ac393f21071795b2ed40131a5,730d89b2c393f21071795b2ed40131a6,8c2fc1f6c393f21071795b2ed40131e2,9ac3d172c3d3f21071795b2ed40131f1,b084d9b2c3d3f21071795b2ed40131ec,cd9e0d76c393f21071795b2ed4013126"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:12:49</sys_created_on>
+        <sys_id>23ce09b6c393f21071795b2ed40131fb</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>d84e6ef5-11d5-465d-8748-470cc4a4a548</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Xa2+bSBSG/0rFZ4+XgQEP+VbZjhopTSrb29WqqtAwl3ikMbhc0nqt/PcOMBhsHDfZOpEi9SNnLn7Pe87jA1+2lmTWhYUCyjFBEI+gY9vQ9n2XEhhFrk8jO+LIGlgxWXG9M+U0SZl+vieqKAPb7TjlJOcshENapCmP84cHvc5ktlZk89ls0xG6lIrpdeviy9eBtSapvjHnqXWxPVh6qiRFIq701lmj6VBjvlmXzyyhxUrrCmUTvDYnJ2bl3dVEr+hDpRw4sPiPnMeMax2CqIwPrBWJGcmTdGNd5GmhAzpndhurzW7HUsZ5neeK/Mjkf/qHXafcJ7hOjBoPdo+h8acOiwnJyVzfTPMi3dmVSMqz2hLGBSlUPu7G6g2361wmcX0kJ5FqTieqWMU3tSHW7oJOOYpMi+DrMs9SeZ2WmC+T77NG5KWMK0dMiiqhRO2eSJ6nMiryUs7WKuTimNl1+LjdQipd/rASHWZJkVYmzabj29kk/Of9YvxhOgtn0/lidjVeTMsTXPHq6hVZr2V8F67T5F5WCnW+q+Gd0g9DoZLvOrFM3sVDQktzhrp0ZHip45Mq/JmksvzRj/oafbhU+XcsvxX8qmo8IaALfR9AaLsAwcgHAeYesLlHkOcg3/Md62FgZZtsrEiWtR7r4obfitKi2nHjbViVp06z6tDyME3lOn+v5d1z4+jDoIHRO9n5pG30zp0tkEW45kyypM/gpyb+TBJ/rachcVE14HF9BsZe7Lp79t1NvWBQdE6jaCIti3UTH0ER228IRZPW77O45/U+intuyyysG9KIrm59Ld4ciAOMIhe4EfIACoQA2MYIIE5s6jlshCD9H7z9krLT80W0XUyTmMkyr6xDmRaiM9NTL0+u5je3i+nHT4t/+8g9tu2ss1B0CBx3xR5LwGDYi10fu8Bg6J5rIiLbfksgnmsm7pm9z+Ge3a/CG2fYjzwbAy4wBsgdYRBAxwG+TxiEiDJhv+x8s9mpbhadl81crnhS5KFQ5K7Dnt3nrPnHeh5XT1DScDWNqz9Mo+hRiYauKEkUJ/HhhNPt9NelUWrQQs+ccKfYekNknW3EtU4fzLeu16/CFaUE64FFQOBSDpAfUYAFFcDlkSdcL8LRyH6BOUZP93DQb1VWpKSqYkvUGb7XnqCjYWnSCnhcmiGpqs1h/Lp/kcHJ+4PTb+HUs/vgA65deCmmlvrchGyysis0w33KOCQjLyq/yQhATgABCZADAp+POBLYd0nwApRheLK7Rb+VM7rkrFD8vJQ9QUdD2bwV8Lg0Q1nb6PuAzTpxQ5h/NsJw72WQruKuuGO8dbJ6k9yJOScpXV5Krsp6mm+zR2jslmUfxG5hXme6OQ50GacAMv3qiBzfAdhFIzAKcGQj3XqRy8/I3defCUjKbJoUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=23ce09b6c393f21071795b2ed40131fb"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:17:07</sys_created_on>
+        <sys_id>3acf493ac393f21071795b2ed40131a5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>e660147e-f675-4249-b609-a3666fb90be9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Yy27bOBT9lYBrxyNZtiJ7F8QI0MFMWyRpN3EgUOSVzYKWVFFK6xr6916J1KN+1e64i0y6CcL7IM+9OocPP66J4GRCrrxwAOPxwApsy3Isyxsxy3MgcK7cK4cyi/RIRJeAkSmwOOU4fqYyLw3r9U0KNAPu232WpylEWVGgnwuVSLr6aMLQwhZCcvSTyeNTjyQ0xRkzSMlkveE6FpKkAUgMvasxbWLMVkk55jHLl4jLF7XxH5M5NZ6LN1P0YFIJx+oR+JpBxAFxhFQq6JEljTjN4nRFJlmaowFr5u8iuWoiFiLKdJ1L+lWJb7iwMyjjQsDCmOlBM/RNf7Q5nNKM3uPMLMvTpl2xYKB0SziENJfZTdemA94lmYgjnZLRQNbZscyX0VvdENJM0PkcuUIQkJR1lsh1WeH9Iv5yV4O8FVHVEVOijBmVzYhmWSqCPCvhrAlIqFq8pEkiormfpPGzqJIRyrI/lzjohzL+gmsqMY/6lJW4+9hV2r9F+7Qyf6SpKIv4F6fB5KJH1ErdSKpUWwr20P+cl0h0YaYEv+qCbkGZx1KRZNe4yjM0mLWxxGs4gv/tCCyKomeUEbCDNGQt6/TKrTByPwEueLythfe1/TRFHAGlVsSDwbIBzeihGvqV70c5VGkXb7XDqME+rAZjaeWgebRDDZ71gtRgynrxctijhIbeMHSdEf65Ch3LHtiWB67nsbFFmee6o6HTcggRYA1U+vipFc7dEv0Mm/0RMGpqXxscF3c1jr0ADd0VfphovkH1+9poaD44keb7d33bfU1Ez8XDRpe1ZavPv0cR5XIfIvE5hzclj9xB4I4tj1/y0Aouh54zuqQMrEtw7RGMuMtGtvMbVGTZh3Zm7u0gaShAdq9RtWNbTB3PaaI6AtWWqG4NrH1wjaSq4a4TpMrfOEHOJy3Psl6Stl7BlaqRADtINugcJJ/iPI0OKMBfCFUxY68SOhGnKeIIkLUi/tYoNwWxCf5X9OD80cP/Xw/D0UGqdS7nDatZHHFRIlYdVeidGdQdfAKWqeto9eFxx5O7HyNENASrPlKJziEtiqdtBf3H2U5T2xEtaF7wuQT1s5YYrbX3PJPU1Vt7OzROo7nhud70L0xyr+Udww5yLRy33OI5Ngjp3v0Ja0Y07BmZzEgURzAjvRkpo/ySXJUZIxBc46hs63VRaEueUjOB3Rm22ZyuVBWp2AI4crOy/mDxKzEY+zl+QTuiJ7X+pjlcTHVTtttUP6NqnLovYuusuzcB1Ux/PYjumTc625k3/CO/czya/OZZgQca7n5n1OTTdxnFk4dWFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3acf493ac393f21071795b2ed40131a5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:05:10</sys_created_on>
+        <sys_id>730d89b2c393f21071795b2ed40131a6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>49dea164-ac4e-4f01-a73e-60d04370390e</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=730d89b2c393f21071795b2ed40131a6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:14:12</sys_created_on>
+        <sys_id>8c2fc1f6c393f21071795b2ed40131e2</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>5d3a3a62-3f87-47dd-bad2-39ff283326fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVobYwdp6HNbkgIDHTaoR2y6RQjS8eJQL6MLmkzJu8+x7bsmKS0KXQTxrtzk/7z+0NPFRGczMgEeBDehFMWhVE0DoLx9SRMplESjnlEAULikZxmgJ0KWKE4xlsqbZ2oqrkCaoDHoc+sUpCb/R7rXOhS0t3KtWGGbYTkWCezp2ePlFThiQYUmVVHpXMlSZqAxNaHTtOxRrMr65gXzGaoKxZd8tZNLlxl9H2BFRyq5YSBR+DVQM4BhaRUavBIRnNOTaF2ZGaUxQQuze9zues7NiI37aIZfdXiL948Ceq+FHAz5kzow9gZ1KbTBTX0EU9mxqrer0Iw0K0nHFJqpZkPc23DfWlEkbcjhiaymy6kzfK71hHSHzD4H1ajCCjrPWvl7Vrp46Z4eehELkXeWOJWlAWjso+oMUok1tRyKgISGo8zWpYiX8elKraiGUYpmb+WGPipLF7wTi3WuU9ZrdtHV6m/xPyiSa+oEvUSP/AYHN57RO/0XFKtD6ugh/EfWytpF3MrxI0LjQVxQ0I9zJQozTe8agtO+N5z0CdX7xHGbg5ADc48gG/jErjgxSnrP7v854g/Q09H/K/mP7+tz0F/krsdzo7u2oJD/urLkL++JOTdGhfP/EekB+N339IBSQ3cekC5Nvi2/7ZBEPHxKelH1c/xfoaqjvelAMn1GzI72CFDWQbiVvYR8K44Wrli/85/GfXhNGi+C2L/v3nun/8BNZDZTeUIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c2fc1f6c393f21071795b2ed40131e2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:34:34</sys_created_on>
+        <sys_id>9ac3d172c3d3f21071795b2ed40131f1</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9ac3d172c3d3f21071795b2ed40131f1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:37:44</sys_created_on>
+        <sys_id>b084d9b2c3d3f21071795b2ed40131ec</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>6499973a-0375-4a07-b860-9fb2bd92786c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVobYwdp6HNbkgIDHTaoR2y6RQjS8eJQL6MLmkzJu8+x7bsmKS0KXQTxrtzk/7z+0NPFRGczMgEeBDehFMWhVE0DoLx9SRMplESjnlEAULikZxmgJ0KWKE4xlsqbZ2oqrkCaoDHoc+sUpCb/R7rXOhS0t3KtWGGbYTkWCezp2ePlFThiQYUmVVHpXMlSZqAxNaHTtOxRrMr65gXzGaoKxZd8tZNLlxl9H2BFRyq5YSBR+DVQM4BhaRUavBIRnNOTaF2ZGaUxQQuze9zues7NiI37aIZfdXiL948Ceq+FHAz5kzow9gZ1KbTBTX0EU9mxqrer0Iw0K0nHFJqpZkPc23DfWlEkbcjhiaymy6kzfK71hHSHzD4H1ajCCjrPWvl7Vrp46Z4eehELkXeWOJWlAWjso+oMUok1tRyKgISGo8zWpYiX8elKraiGUYpmb+WGPipLF7wTi3WuU9ZrdtHV6m/xPyiSa+oEvUSP/AYHN57RO/0XFKtD6ugh/EfWytpF3MrxI0LjQVxQ0I9zJQozTe8agtO+N5z0CdX7xHGbg5ADc48gG/jErjgxSnrP7v854g/Q09H/K/mP7+tz0F/krsdzo7u2oJD/urLkL++JOTdGhfP/EekB+N339IBSQ3cekC5Nvi2/7ZBEPHJKelH1c/xfoaqjvelAMn1GzI72CFDWQbiVvYR8K44Wrli/85/GfXhNGi+C2L/v3nun/8BCMUxr+UIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b084d9b2c3d3f21071795b2ed40131ec"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:11:48</sys_created_on>
+        <sys_id>cd9e0d76c393f21071795b2ed4013126</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:49:36</sys_updated_on>
+        <ui_id>f9ab516f-f234-46ee-9010-96ff3c651298</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVo7TF2nIQ2uyEhUOhlaIdsOsXI0nEikC+jS9pMyLvPsS07JimdFLoJ4925Sf/5/aHnHRGcTMkIeBBehxMWhVE0DILh1ShMJlESDnlEAULikZxmgJ0KWKE4xhsqbZXY7WYKqAEehz6zSkFu9nusc6FLSbdL14YZthaSY51Mn188UlKFJxpQZLo7Kp0rSdIEJLY+tpqONZptWcW8YDZDXbFok7ducu4qg5s5VnCokhMGHoE3AzkHFJJSqcEjGc05NYXakqlRFhO4NH/I5bbrWIvcNItm9E2LP3jzKKj6UsDNmDOhC2NnUJNO59TQJzyZGas6vwrBQDeecEiplWbWzzUND6URRd6MGJrIdrqQNsvvG0dId0Dvf1iNIqCs9qyUN2ulT+vi9bEVuRB5bYlbURaMyi6ixiiRWFPJ2RGQUHuc0bIU+SouVbER9TBKyfyVxMBPZfGKd2qxyn3KKt0+ukr9BebndXpJlaiWuMNjcHjvEb3VM0m1PqyCHsa/baWkWcytENcu1BbENQnVMFOiNN/xqg044XvPQZ+MPyKMXR+A6p15AN/GJXDBi1PWf7T5zxF/hp6W+J/1f35fn4P+JHfbnx3cNwWH/PjLkL+6JOTdGhfP/L9ID4YfvqU9kmq4dY9ybfBt/2WDIOLfxqeoH5c/R/wZulriFwIk1+8IbXGHDHUZiBvhR8i74mDpit1L/2Xch5Og/i6I/v/mwX/5C6vI25HnCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cd9e0d76c393f21071795b2ed4013126"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN8162997ec393f21071795b2ed40131a8,85cc01b2c393f21071795b2ed4013182,bf93d932c3d3f21071795b2ed40131e9"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3f2691b6c3d3f21071795b2ed4013191</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:28:29</sys_created_on>
+        <sys_id>8162997ec393f21071795b2ed40131a8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:38</sys_updated_on>
+        <ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnWaAkS6l8C1oEKNA2QBPk0gbCilrZRClRJSk7ruGv6aEfkh/rUg/HaBw0KHLsTZxd7s4sZ7XzVGfbzpobdWGMWDbe4sud74nGYfS98xqo0Vt4XDWlsEI1eQ/43hpk5wLXSgouLDz8evipziolzqDVag0lUFIpTCthe/uSXL4SstQ4MmhBUx+L2lvs/gjZbYu5hAKlK2m1aJZ0XZR0qhhUYcZDHkdpHDEWvZmHRRoXYVTGgBBT3nTx7STo7EOP+M8qdf0IN1MnpUtHK2S+h/cWmxKpdQXSoO/V0JRgld4eEI1QXjXyEViJxlI5zyXfG/GDakdJ4hIrJI0ch+DhmI9DHGC+UoLjVesIDoiFQo53uJJd3XwadLjxYwWdtNP4CekM1cPWkXYsRkrV9UptPk8NL0XTCxyDUnGQhxNYGkPRWTTuYVBiTYXyGtqWhpO71xT9ZeJSB0tJh6CSakNNnbsC4I54QDOC4JLwdz18C1o4FR+pDF0eaBZgBM97J1I5q0nCvh9L/r1zhAaBo5R8mAYlGK5Fay+ozxpH1nv/qY2PHLzbYZqycH6Osyo9T2bzaJ7NipRlM4jTNK2KjBWYBcTNeVXmxoLF/f5rx1hcDig54InZX6vsa+xFBkmVhCw5vRfz9NRenNiI55ch+ssyuOd74S4wxv4vw/EyCJMPph619c3/eRfunPGHDmbwTYlcGCJy47D305/fBbZkAMGPoY3S35yER2z/G3GQ5WRDBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">772691b6c3d3f21071795b2ed4013194</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:54</sys_created_on>
+        <sys_id>85cc01b2c393f21071795b2ed4013182</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:52:21</sys_updated_on>
+        <ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy2obMRT9FaP1MMwjNo13wSFQSBuoQzZtGO5IGltUI031sOMO/qB+R3+sV/OwTeOShHbZnXV0H+ec0cEt0d413tl7fWWtWCky//wYEaEChr9boqDmZE6oVkw4oVXRARHZgPThYsknjRHaCAaMT37+mCwM1lHAEiZsI2H38HIlXQvJDB+2N2Bwh+OGzNvfrgTDQVUCVXpJU5pnszxLkuzdRVrO8jLNWA4cchwooeQSSxcj7clth0R/1ON2TcCtM0KthvPtMGU5gtqwwCpNIsKfHFeMI58KpOURqUExcNrsDojhwO6UPAJroRyOI6H4yYrvuDCbTkNhxVEi5f3l4VgMDvZwdQ0OkIqnzpuhlK61oNz25jBegZducYr1BXdNkNq3OCjl2K2lr9XH3hFyGDB+MES8RRK8CUoD9UFHtVzr7aeR5Y1QnSvDpdQU5OEEDr0rvQt8WsIlr3FQUUPToKNFY/RGdM3IpY5XEg9xJfUWl4bXGAMNxGM0FuIbxK87+AGMCCo+4Bhs7mmWYAUtupeL49AmTvYRsTu7kGDtUSS6W3zzgWIveRBX9P6EFmpE465w84YPOvbR8yCcZKBtF/itHWdFGlNv0BUX90/d7fb7Lz5JcpY+D8Rr296WjkuYVtM0mZ5Px8XsXDrO5OKNkcheiET4Hq9MRJIk/yPx15EQtugf8qCtW/4PE/EYnn+/8+A1FRap3Qfs/fgPEi52+LgEPYW22nwNoo7Y/hdP60ZHiwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb2691b6c3d3f21071795b2ed401319c</block>
+        <comment/>
+        <connected_to>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:33:51</sys_created_on>
+        <sys_id>bf93d932c3d3f21071795b2ed40131e9</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:38</sys_updated_on>
+        <ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN0e7e89b2c393f21071795b2ed40131a3,5ec3d172c3d3f21071795b2ed401318c"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>efac0d72c393f21071795b2ed40131a4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:11:20</sys_created_on>
+        <sys_id>0e7e89b2c393f21071795b2ed40131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:11:20</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fd9e3ecc-80c8-418c-ac69-c99be9f46546</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>efac0d72c393f21071795b2ed40131a4</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:34:34</sys_created_on>
+        <sys_id>5ec3d172c3d3f21071795b2ed401318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:34:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d059616d-42d3-4698-90d6-4c7017e911ff</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=efac0d72c393f21071795b2ed40131a4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>23ac4d72c393f21071795b2ed40131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:03:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:03:31</sys_created_on>
+        <sys_id>6bac4d72c393f21071795b2ed40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:03:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_efac0d72c393f21071795b2ed40131a4"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_efac0d72c393f21071795b2ed40131a4"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>547d7032c313f21071795b2ed40131dc</copied_from>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>copy_of_solicitao_de_brinquedos</internal_name>
+        <label_cache>[{"name":"e660147e-f675-4249-b609-a3666fb90be9.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"f70e5e35-1fc9-4c28-84da-850dcccfe2e1":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.opened_by.manager","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"e660147e-f675-4249-b609-a3666fb90be9":["approval_conditions"]}},{"name":"Created_1.current.sys_created_by","label":"Trigger - Record Created➛Pedido Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"sys_created_by","usedInstances":{}},{"name":"Created_1.current.number","label":"Trigger - Record Created➛Pedido Record➛Number (number)","reference":"","reference_display":"Number (number)","type":"string","base_type":"string","parent_table_name":"u_pedido","column_name":"number","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["ah_subject",null],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_subject"]}},{"name":"Created_1.current.priority","label":"Trigger - Record Created➛Pedido Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"u_pedido","column_name":"priority","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"used":false,"label":"1 - Critical","image":"","reference":false,"rawLabel":"1 - Critical","selected":false,"missing":false,"value":"1","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"2 - High","image":"","reference":false,"rawLabel":"2 - High","selected":false,"missing":false,"value":"2","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"3 - Moderate","image":"","reference":false,"rawLabel":"3 - Moderate","selected":false,"missing":false,"value":"3","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"4 - Low","image":"","reference":false,"rawLabel":"4 - Low","selected":false,"missing":false,"value":"4","parameters":{"name":"task","dependent_values":[""]}},{"used":false,"label":"5 - Planning","image":"","reference":false,"rawLabel":"5 - Planning","selected":false,"missing":false,"value":"5","parameters":{"name":"task","dependent_values":[""]}}],"usedInstances":{"7a7423be-6705-4f29-8a21-1627308a8a7c":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedido Record","reference":"u_pedido","reference_display":"Pedido","type":"reference","base_type":"reference","usedInstances":{"49dea164-ac4e-4f01-a73e-60d04370390e":["record"],"f9ab516f-f234-46ee-9010-96ff3c651298":["record"],"d84e6ef5-11d5-465d-8748-470cc4a4a548":["record"],"5d3a3a62-3f87-47dd-bad2-39ff283326fe":["record"],"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["record"],"6499973a-0375-4a07-b860-9fb2bd92786c":["record"],"e660147e-f675-4249-b609-a3666fb90be9":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by.email","label":"Trigger - Record Created➛Pedido Record➛Opened by➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email","usedInstances":{"f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea":["ah_to"]}}]</label_cache>
+        <master>true</master>
+        <name>Solicitação de brinquedos</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Solicitação de brinquedos">efac0d72c393f21071795b2ed40131a4</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c436d1b6c3d3f21071795b2ed401312a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:41</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT IN8836d1b6c3d3f21071795b2ed401312c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c436d1b6c3d3f21071795b2ed401312a</id>
+        <name>Copy of Solicitação de brinquedos</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>8836d1b6c3d3f21071795b2ed401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8836d1b6c3d3f21071795b2ed401312c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT IN0836d1b6c3d3f21071795b2ed401312e,9836d1b6c3d3f21071795b2ed4013143"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
+        <model_id>c436d1b6c3d3f21071795b2ed401312a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>0836d1b6c3d3f21071795b2ed401312e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0836d1b6c3d3f21071795b2ed401312e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</model>
+        <model_id>c436d1b6c3d3f21071795b2ed401312a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>9836d1b6c3d3f21071795b2ed4013143</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9836d1b6c3d3f21071795b2ed4013143"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT INdc36d1b6c3d3f21071795b2ed4013166"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:05</sys_created_on>
+        <sys_id>dc36d1b6c3d3f21071795b2ed4013166</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:47:38</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLZACuthxnLdtkkUDbDet420fglSgRNImSpOuRCnrLvLvHepiyxLl2LGydZ4CDemZM4dnZsg8fLM5Cgm3L+0pCjmxz2wmFIkF4tPVkoBZaXMg0EKvLZDASMl4ZV+qOCVnNo3lYkoWS44UbKaIJ2CUMSaxfeme2RniKblfJbcYPMHvczelT7tchu80WBLMsAQTZgk4W/1RrvxW2aM54zgmwr58eDyzlygGT0pH+dZYYjpURCM09ogT+a7veY7jXQzc8NwPXQ/7iDgOOGym3YCmDNlv8iJfFRGY4HXKLWJigvCd4Kv1jjnwWpCwQF8T9i94v3D0PkoAe0SKtfVnUBJRmKO5ZBG5WyomRWEpcBaLkqcL8bnArykkFKVcVRSCJU3AH1lqyBpEiYjez+XTpAr4kYk8u3KRywjx9RdSKmZhqkiiCaeMA/VBwU0i0zhHP7m5uptcB39+mF79cjMJJjf308nt1fTm2n7O8wr+SbXHAmGJJSjSeV6f+0dGOC4UEUucKn30SRSzpfoQKZZVGns+2+j2SgrMcmJa2o2qpWRbuxUBu8TrOJ3yjWoRKwn/dfN7W72F8TDpnp8jhAnqkG5Ia9KtZ26Apgwk1LPbJeLSso+KB47zP+m4bEGvlfETEioJlAwQxkGNJah6cKxTlJjw6008sLPZDJTPxDJVyYu6LnJ7flHBcSrgB8H6PNo6zmlb8/eJJYDmAQqx4qYETD+VHiepsKSwojQGUpQF52pV3q0cldYCvV2gWcksvSecRKomBvolqX/9ypKEiVkN/Tp4bmlH56s6hKqvHhP0sc8ibpOeNfJpFPPBley6lIaEes5I17Hr+CF1nZEzRBT7jhN5tUpug+lEqRqSeJOKPqyek1yMfI/Tb1Jcgnfq1bCXdrNt4VckaImUbeOqH2huT9A8Da3R/vyD+t9aloX5eludu1LrefwjnCH4Ba5y3Ge879EBKZdP0Flf0f2ojMkslqnAzS6kfVoM/m7t6KnvhSj6e3fYzQ7rh/LYfjy1HrihvRIuEqseup9P3XBMBsSBpudDvwuH43EYIY/S0fmIeG6j+21gGLG9i673wrFnJt10dUCjcjOT4A/ofUcAbPXBgwEe3wFLYRr7X7H2Pjrd05yIAKDGAde9rNXwZpxhUq31W+2t0Nmmvo+teHoxjobuaBSN4NUCFU8HJETuwBui8ejcvxg2Kr4FZRdMZWDmu7xlklWSA+noBl+KpdN6n7+lbBOilB5Hh0/pfD8qAtTmpT4SK28oMrY0ndbtZqN1T2D65a/Z3qa2VPPWvIbQP4N9K7S+3X2W4icDnD5fTwKu9/tQ0wHl1K4TDZFk26wf/aQig4vhmPrmFkPHphazAdMN8+SvF3tKIesUlemesW/pZcYK7rwYvKKYGjKp3xh2XGn6IsXtnRTv7Ujxj75GVbXY+Y58Ddh3NMLye8Xr55gUJJDU2KcZtcp/ERJshStLzQmQyeGmDKEsHbfPyVFceVuDDMxWeWPpb0ZpmptpX0sLFqz4uyT+NoOqIYV+X8AEj9Bw6Hfch8fNF7AJ0At4T35sHSyRzKS4nbPrML9Nn8bpVaugbUXsOZd6zdo8nI7L2jieXsr6+MGz6/1uQHGiI+XxP9rTbws0HwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT IN1436d1b6c3d3f21071795b2ed4013163,1836d1b6c3d3f21071795b2ed4013160,1c36d1b6c3d3f21071795b2ed401315c,5436d1b6c3d3f21071795b2ed4013164,5836d1b6c3d3f21071795b2ed401315e,5836d1b6c3d3f21071795b2ed4013161,d036d1b6c3d3f21071795b2ed401315a"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>9</order>
+        <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>1436d1b6c3d3f21071795b2ed4013163</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:47:39</sys_updated_on>
+        <ui_id>f13da1cc-99a6-46ce-8e1a-70ed8c8a4dea</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1436d1b6c3d3f21071795b2ed4013163"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>1836d1b6c3d3f21071795b2ed4013160</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <ui_id>d84e6ef5-11d5-465d-8748-470cc4a4a548</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Xa2+bSBSG/0rFZ4+XgQEP+VbZjhopTSrb29WqqtAwl3ikMbhc0nqt/PcOMBhsHDfZOpEi9SNnLn7Pe87jA1+2lmTWhYUCyjFBEI+gY9vQ9n2XEhhFrk8jO+LIGlgxWXG9M+U0SZl+vieqKAPb7TjlJOcshENapCmP84cHvc5ktlZk89ls0xG6lIrpdeviy9eBtSapvjHnqXWxPVh6qiRFIq701lmj6VBjvlmXzyyhxUrrCmUTvDYnJ2bl3dVEr+hDpRw4sPiPnMeMax2CqIwPrBWJGcmTdGNd5GmhAzpndhurzW7HUsZ5neeK/Mjkf/qHXafcJ7hOjBoPdo+h8acOiwnJyVzfTPMi3dmVSMqz2hLGBSlUPu7G6g2361wmcX0kJ5FqTieqWMU3tSHW7oJOOYpMi+DrMs9SeZ2WmC+T77NG5KWMK0dMiiqhRO2eSJ6nMiryUs7WKuTimNl1+LjdQipd/rASHWZJkVYmzabj29kk/Of9YvxhOgtn0/lidjVeTMsTXPHq6hVZr2V8F67T5F5WCnW+q+Gd0g9DoZLvOrFM3sVDQktzhrp0ZHip45Mq/JmksvzRj/oafbhU+XcsvxX8qmo8IaALfR9AaLsAwcgHAeYesLlHkOcg3/Md62FgZZtsrEiWtR7r4obfitKi2nHjbViVp06z6tDyME3lOn+v5d1z4+jDoIHRO9n5pG30zp0tkEW45kyypM/gpyb+TBJ/rachcVE14HF9BsZe7Lp79t1NvWBQdE6jaCIti3UTH0ER228IRZPW77O45/U+intuyyysG9KIrm59Ld4ciAOMIhe4EfIACoQA2MYIIE5s6jlshCD9H7z9krLT80W0XUyTmMkyr6xDmRaiM9NTL0+u5je3i+nHT4t/+8g9tu2ss1B0CBx3xR5LwGDYi10fu8Bg6J5rIiLbfksgnmsm7pm9z+Ge3a/CG2fYjzwbAy4wBsgdYRBAxwG+TxiEiDJhv+x8s9mpbhadl81crnhS5KFQ5K7Dnt3nrPnHeh5XT1DScDWNqz9Mo+hRiYauKEkUJ/HhhNPt9NelUWrQQs+ccKfYekNknW3EtU4fzLeu16/CFaUE64FFQOBSDpAfUYAFFcDlkSdcL8LRyH6BOUZP93DQb1VWpKSqYkvUGb7XnqCjYWnSCnhcmiGpqs1h/Lp/kcHJ+4PTb+HUs/vgA65deCmmlvrchGyysis0w33KOCQjLyq/yQhATgABCZADAp+POBLYd0nwApRheLK7Rb+VM7rkrFD8vJQ9QUdD2bwV8Lg0Q1nb6PuAzTpxQ5h/NsJw72WQruKuuGO8dbJ6k9yJOScpXV5Krsp6mm+zR2jslmUfxG5hXme6OQ50GacAMv3qiBzfAdhFIzAKcGQj3XqRy8/I3defCUjKbJoUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1836d1b6c3d3f21071795b2ed4013160"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>1c36d1b6c3d3f21071795b2ed401315c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <ui_id>49dea164-ac4e-4f01-a73e-60d04370390e</ui_id>
+        <updation_source/>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1c36d1b6c3d3f21071795b2ed401315c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>10</order>
+        <parent_ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>5436d1b6c3d3f21071795b2ed4013164</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <ui_id>6499973a-0375-4a07-b860-9fb2bd92786c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVobYwdp6HNbkgIDHTaoR2y6RQjS8eJQL6MLmkzJu8+x7bsmKS0KXQTxrtzk/7z+0NPFRGczMgEeBDehFMWhVE0DoLx9SRMplESjnlEAULikZxmgJ0KWKE4xlsqbZ2oqrkCaoDHoc+sUpCb/R7rXOhS0t3KtWGGbYTkWCezp2ePlFThiQYUmVVHpXMlSZqAxNaHTtOxRrMr65gXzGaoKxZd8tZNLlxl9H2BFRyq5YSBR+DVQM4BhaRUavBIRnNOTaF2ZGaUxQQuze9zues7NiI37aIZfdXiL948Ceq+FHAz5kzow9gZ1KbTBTX0EU9mxqrer0Iw0K0nHFJqpZkPc23DfWlEkbcjhiaymy6kzfK71hHSHzD4H1ajCCjrPWvl7Vrp46Z4eehELkXeWOJWlAWjso+oMUok1tRyKgISGo8zWpYiX8elKraiGUYpmb+WGPipLF7wTi3WuU9ZrdtHV6m/xPyiSa+oEvUSP/AYHN57RO/0XFKtD6ugh/EfWytpF3MrxI0LjQVxQ0I9zJQozTe8agtO+N5z0CdX7xHGbg5ADc48gG/jErjgxSnrP7v854g/Q09H/K/mP7+tz0F/krsdzo7u2oJD/urLkL++JOTdGhfP/EekB+N339IBSQ3cekC5Nvi2/7ZBEPHJKelH1c/xfoaqjvelAMn1GzI72CFDWQbiVvYR8K44Wrli/85/GfXhNGi+C2L/v3nun/8BCMUxr+UIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5436d1b6c3d3f21071795b2ed4013164"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>5836d1b6c3d3f21071795b2ed401315e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <ui_id>f9ab516f-f234-46ee-9010-96ff3c651298</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVo7TF2nIQ2uyEhUOhlaIdsOsXI0nEikC+jS9pMyLvPsS07JimdFLoJ4925Sf/5/aHnHRGcTMkIeBBehxMWhVE0DILh1ShMJlESDnlEAULikZxmgJ0KWKE4xhsqbZXY7WYKqAEehz6zSkFu9nusc6FLSbdL14YZthaSY51Mn188UlKFJxpQZLo7Kp0rSdIEJLY+tpqONZptWcW8YDZDXbFok7ducu4qg5s5VnCokhMGHoE3AzkHFJJSqcEjGc05NYXakqlRFhO4NH/I5bbrWIvcNItm9E2LP3jzKKj6UsDNmDOhC2NnUJNO59TQJzyZGas6vwrBQDeecEiplWbWzzUND6URRd6MGJrIdrqQNsvvG0dId0Dvf1iNIqCs9qyUN2ulT+vi9bEVuRB5bYlbURaMyi6ixiiRWFPJ2RGQUHuc0bIU+SouVbER9TBKyfyVxMBPZfGKd2qxyn3KKt0+ukr9BebndXpJlaiWuMNjcHjvEb3VM0m1PqyCHsa/baWkWcytENcu1BbENQnVMFOiNN/xqg044XvPQZ+MPyKMXR+A6p15AN/GJXDBi1PWf7T5zxF/hp6W+J/1f35fn4P+JHfbnx3cNwWH/PjLkL+6JOTdGhfP/L9ID4YfvqU9kmq4dY9ybfBt/2WDIOLfxqeoH5c/R/wZulriFwIk1+8IbXGHDHUZiBvhR8i74mDpit1L/2Xch5Og/i6I/v/mwX/5C6vI25HnCAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5836d1b6c3d3f21071795b2ed401315e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>5836d1b6c3d3f21071795b2ed4013161</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <ui_id>5d3a3a62-3f87-47dd-bad2-39ff283326fe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+WUy2rjMBSGXyVobYwdp6HNbkgIDHTaoR2y6RQjS8eJQL6MLmkzJu8+x7bsmKS0KXQTxrtzk/7z+0NPFRGczMgEeBDehFMWhVE0DoLx9SRMplESjnlEAULikZxmgJ0KWKE4xlsqbZ2oqrkCaoDHoc+sUpCb/R7rXOhS0t3KtWGGbYTkWCezp2ePlFThiQYUmVVHpXMlSZqAxNaHTtOxRrMr65gXzGaoKxZd8tZNLlxl9H2BFRyq5YSBR+DVQM4BhaRUavBIRnNOTaF2ZGaUxQQuze9zues7NiI37aIZfdXiL948Ceq+FHAz5kzow9gZ1KbTBTX0EU9mxqrer0Iw0K0nHFJqpZkPc23DfWlEkbcjhiaymy6kzfK71hHSHzD4H1ajCCjrPWvl7Vrp46Z4eehELkXeWOJWlAWjso+oMUok1tRyKgISGo8zWpYiX8elKraiGUYpmb+WGPipLF7wTi3WuU9ZrdtHV6m/xPyiSa+oEvUSP/AYHN57RO/0XFKtD6ugh/EfWytpF3MrxI0LjQVxQ0I9zJQozTe8agtO+N5z0CdX7xHGbg5ADc48gG/jErjgxSnrP7v854g/Q09H/K/mP7+tz0F/krsdzo7u2oJD/urLkL++JOTdGhfP/EekB+N339IBSQ3cekC5Nvi2/7ZBEPHxKelH1c/xfoaqjvelAMn1GzI72CFDWQbiVvYR8K44Wrli/85/GfXhNGi+C2L/v3nun/8BNZDZTeUIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5836d1b6c3d3f21071795b2ed4013161"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>d036d1b6c3d3f21071795b2ed401315a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:41</sys_updated_on>
+        <ui_id>e660147e-f675-4249-b609-a3666fb90be9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Yy27bOBT9lYBrxyNZtiJ7F8QI0MFMWyRpN3EgUOSVzYKWVFFK6xr6916J1KN+1e64i0y6CcL7IM+9OocPP66J4GRCrrxwAOPxwApsy3Isyxsxy3MgcK7cK4cyi/RIRJeAkSmwOOU4fqYyLw3r9U0KNAPu232WpylEWVGgnwuVSLr6aMLQwhZCcvSTyeNTjyQ0xRkzSMlkveE6FpKkAUgMvasxbWLMVkk55jHLl4jLF7XxH5M5NZ6LN1P0YFIJx+oR+JpBxAFxhFQq6JEljTjN4nRFJlmaowFr5u8iuWoiFiLKdJ1L+lWJb7iwMyjjQsDCmOlBM/RNf7Q5nNKM3uPMLMvTpl2xYKB0SziENJfZTdemA94lmYgjnZLRQNbZscyX0VvdENJM0PkcuUIQkJR1lsh1WeH9Iv5yV4O8FVHVEVOijBmVzYhmWSqCPCvhrAlIqFq8pEkiormfpPGzqJIRyrI/lzjohzL+gmsqMY/6lJW4+9hV2r9F+7Qyf6SpKIv4F6fB5KJH1ErdSKpUWwr20P+cl0h0YaYEv+qCbkGZx1KRZNe4yjM0mLWxxGs4gv/tCCyKomeUEbCDNGQt6/TKrTByPwEueLythfe1/TRFHAGlVsSDwbIBzeihGvqV70c5VGkXb7XDqME+rAZjaeWgebRDDZ71gtRgynrxctijhIbeMHSdEf65Ch3LHtiWB67nsbFFmee6o6HTcggRYA1U+vipFc7dEv0Mm/0RMGpqXxscF3c1jr0ADd0VfphovkH1+9poaD44keb7d33bfU1Ez8XDRpe1ZavPv0cR5XIfIvE5hzclj9xB4I4tj1/y0Aouh54zuqQMrEtw7RGMuMtGtvMbVGTZh3Zm7u0gaShAdq9RtWNbTB3PaaI6AtWWqG4NrH1wjaSq4a4TpMrfOEHOJy3Psl6Stl7BlaqRADtINugcJJ/iPI0OKMBfCFUxY68SOhGnKeIIkLUi/tYoNwWxCf5X9OD80cP/Xw/D0UGqdS7nDatZHHFRIlYdVeidGdQdfAKWqeto9eFxx5O7HyNENASrPlKJziEtiqdtBf3H2U5T2xEtaF7wuQT1s5YYrbX3PJPU1Vt7OzROo7nhud70L0xyr+Udww5yLRy33OI5Ngjp3v0Ja0Y07BmZzEgURzAjvRkpo/ySXJUZIxBc46hs63VRaEueUjOB3Rm22ZyuVBWp2AI4crOy/mDxKzEY+zl+QTuiJ7X+pjlcTHVTtttUP6NqnLovYuusuzcB1Ux/PYjumTc625k3/CO/czya/OZZgQca7n5n1OTTdxnFk4dWFgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d036d1b6c3d3f21071795b2ed401315a"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT IN5036d1b6c3d3f21071795b2ed4013155,d036d1b6c3d3f21071795b2ed4013157,d436d1b6c3d3f21071795b2ed4013158"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3f2691b6c3d3f21071795b2ed4013191</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>5036d1b6c3d3f21071795b2ed4013155</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:41</sys_updated_on>
+        <ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FYNnWaAkS6l8CxwEKJA2QB3k0gbCiqJsopSoipQdV/DX9NAPyY91qYdtNC6aoDn2Zg6XuzOjHbglqjFVY/SdutRarEoy//zgEFFaDH+3pISCkzlhqsyEEapMOsAhG5CNvVgqKZgw8PTz6Yea5EpMoKrVBjLAokzoSsLu/iW1bC1kVvOBQQU1zjG8JvP2tyuRYaucQu7FzGOBHwU+pf67mZdGQer5WQAcAmwoIeUSSxcj9clNhzh/1GR2lcW1qUW5Gs43Q5flCKo6s6w86hD+aHiZceSTg9TcIQWUGRhV7w5IzSG7LeURWIvSYDtiix+1+I4D/TC0hTlHiYz3l4djMnjYw/kVGEAqDTNNPZSytRKM696cjOfQSLM4xfqC28pK7Z8YSOX4WsmmKD/2jpBDg/GTIdJoJMErq9RSH3Tky7XafhpZXouyc2W4lIqBPJzAoHdpYyyflnDJC2yUFFBV6GhiN0B0j5FL4a4kHtxcqi0OtRvpArPEXTQW3GvErzr4HmphVXzANvi4p5mCFizpthfboU2c7B2id3ohQeujSHQ3+dZYir3kQVzS+2OfsFpU5hInb/igY+88D8NJDtqWRxH1Zhd8mkcX4XTmz+JpGtF4CkEURXka05THLrK1Gy8TbcDw/f5LQ2mQ9Sgu0rPIvFXb16UrhjAPPRqeT9csOpeuM7l6ZaT8v0TKfs8XJopS+j9S/xwpoZM+CIO2bvgbJurBxqefefCaCY3U7iz2fvwXshc7XC7BTqGtqr9aUUds/wvO2MNTzwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">772691b6c3d3f21071795b2ed4013194</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>d036d1b6c3d3f21071795b2ed4013157</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:41</sys_updated_on>
+        <ui_id>7a7423be-6705-4f29-8a21-1627308a8a7c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy2obMRT9FaP1MMwjNo13wSFQSBuoQzZtGO5IGltUI031sOMO/qB+R3+sV/OwTeOShHbZnXV0H+ec0cEt0d413tl7fWWtWCky//wYEaEChr9boqDmZE6oVkw4oVXRARHZgPThYsknjRHaCAaMT37+mCwM1lHAEiZsI2H38HIlXQvJDB+2N2Bwh+OGzNvfrgTDQVUCVXpJU5pnszxLkuzdRVrO8jLNWA4cchwooeQSSxcj7clth0R/1ON2TcCtM0KthvPtMGU5gtqwwCpNIsKfHFeMI58KpOURqUExcNrsDojhwO6UPAJroRyOI6H4yYrvuDCbTkNhxVEi5f3l4VgMDvZwdQ0OkIqnzpuhlK61oNz25jBegZducYr1BXdNkNq3OCjl2K2lr9XH3hFyGDB+MES8RRK8CUoD9UFHtVzr7aeR5Y1QnSvDpdQU5OEEDr0rvQt8WsIlr3FQUUPToKNFY/RGdM3IpY5XEg9xJfUWl4bXGAMNxGM0FuIbxK87+AGMCCo+4Bhs7mmWYAUtupeL49AmTvYRsTu7kGDtUSS6W3zzgWIveRBX9P6EFmpE465w84YPOvbR8yCcZKBtF/itHWdFGlNv0BUX90/d7fb7Lz5JcpY+D8Rr296WjkuYVtM0mZ5Px8XsXDrO5OKNkcheiET4Hq9MRJIk/yPx15EQtugf8qCtW/4PE/EYnn+/8+A1FRap3Qfs/fgPEi52+LgEPYW22nwNoo7Y/hdP60ZHiwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">bb2691b6c3d3f21071795b2ed401319c</block>
+        <comment/>
+        <connected_to>f70e5e35-1fc9-4c28-84da-850dcccfe2e1</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Solicitação de brinquedos">c436d1b6c3d3f21071795b2ed401312a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>d436d1b6c3d3f21071795b2ed4013158</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:41</sys_updated_on>
+        <ui_id>2fb0e39a-2e8a-4f42-9c07-97b41ed7e50f</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c436d1b6c3d3f21071795b2ed401312a^sys_idNOT IN5436d1b6c3d3f21071795b2ed4013167,9036d1b6c3d3f21071795b2ed4013167"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c436d1b6c3d3f21071795b2ed401312a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:05</sys_created_on>
+        <sys_id>5436d1b6c3d3f21071795b2ed4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:05</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fd9e3ecc-80c8-418c-ac69-c99be9f46546</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>c436d1b6c3d3f21071795b2ed401312a</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.number}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:05</sys_created_on>
+        <sys_id>9036d1b6c3d3f21071795b2ed4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:05</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>d059616d-42d3-4698-90d6-4c7017e911ff</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>1436d1b6c3d3f21071795b2ed401314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:04</sys_created_on>
+        <sys_id>9036d1b6c3d3f21071795b2ed4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 01:45:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c436d1b6c3d3f21071795b2ed401312a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>efac0d72c393f21071795b2ed40131a4</sys_id>
+        <latest_snapshot>c436d1b6c3d3f21071795b2ed401312a</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch5-12-17-2025_01-05-2026_2218.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=efac0d72c393f21071795b2ed40131a4^sys_idNOT IN2836d1b6c3d3f21071795b2ed40131bd"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"2836d1b6c3d3f21071795b2ed40131bd","name":"plan","plan_signature":null}}</plan>
+        <plan_id>efac0d72c393f21071795b2ed40131a4</plan_id>
+        <snapshot>766e814bc3d3761071795b2ed4013149</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-02 01:45:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2836d1b6c3d3f21071795b2ed40131bd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-02 19:48:42</sys_updated_on>
+        <trigger display_value="">a13e890bc3d3761071795b2ed40131b4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=efac0d72c393f21071795b2ed40131a4"/>
+</record_update>

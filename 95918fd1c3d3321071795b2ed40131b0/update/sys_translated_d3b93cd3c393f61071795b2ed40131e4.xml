@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Toy Store Header</label>
+        <language>pb</language>
+        <name>sp_widget</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 12:57:43</sys_created_on>
+        <sys_id>d3b93cd3c393f61071795b2ed40131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Toy Store Header</sys_name>
+        <sys_package display_value="Toy Store" source="95918fd1c3d3321071795b2ed40131b0">95918fd1c3d3321071795b2ed40131b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Toy Store">95918fd1c3d3321071795b2ed40131b0</sys_scope>
+        <sys_update_name>sys_translated_d3b93cd3c393f61071795b2ed40131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 12:57:43</sys_updated_on>
+        <value>Copy of Stock Header</value>
+    </sys_translated>
+</record_update>
