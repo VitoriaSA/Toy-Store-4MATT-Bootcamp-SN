@@ -146,6 +146,11 @@ Integração realizada para quando preencher o campo CEP, tazer as informações
 
 <br/>
 
+## :movie_camera: Vídeos
+
+[![Portal Toy Store](https://github.com/user-attachments/assets/1d6ca558-de07-459a-ae5e-e530d76215c6)](https://youtu.be/wC_6g1mgOEk)
+[![Entrega do Projeto Final](https://github.com/user-attachments/assets/93ccb760-e08c-4274-8f3e-1fa31bb79b84)](https://youtu.be/GM1Fjfz8AXk)
+
 ## 🤝 Colaboradores
 
 Projeto criado por:
